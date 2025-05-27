@@ -1,0 +1,160 @@
+/********************************
+ * Generale CSS
+ * 
+ * ************************************/
+ 
+ * {
+    box-sizing: border-box;
+   
+   /*da mettere sempre per i siti responsive*/
+   }
+   
+   
+   header{
+   
+      font-size: 0.9em;
+       align-items: center;
+       justify-content: space-between;
+       background-color: #005792;
+       color: white;
+       padding:40px;
+       flex-wrap: wrap;
+       text-align: center;
+       
+   }
+   header h1{
+    font-size: 2.8em;
+    font-family: verdana;
+   }
+   header a{
+    font-size: 1.1em;
+    font-family: verdana;
+     text-decoration: none;
+   }
+   
+   .logo {
+   height: 200px;
+   
+    }
+   .logo2{
+      height: 150px;
+    }
+   .info {
+   
+       font-size: 1.0em; 
+     }
+   .info a{
+     color: white;
+   
+   }
+   nav{
+   
+     float: center;
+     width: 50%;
+     margin: 0 auto;
+     text-align: center;
+     color:#005792;
+     line-height: 50px;
+
+
+   
+   }
+   
+   nav a{
+     overflow: auto;
+     background-color: #005792;
+    font-family: sans-serif;
+     margin-top: 10px;
+     display: block;
+     width: 100%;
+     color: white;
+     height: 70px;
+     text-decoration: none;
+
+   }
+
+} 
+    .nav-img{
+   background-color: white;
+  width: 60%;
+         height: 70px;
+         align-items: right;
+          overflow-y: hidden;
+          margin-left: 90px;
+
+
+   }
+   
+   
+
+	
+   
+   article{
+   
+     float: left;
+     width: 70%;
+     padding: 0px 20px;
+     text-align: center;
+     font-family: Verdana, sans-serif ;
+   
+   }
+   .demo {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  } 
+
+   article h1{
+     color: #005792;
+
+     font-size: 1.8em;
+   
+   }
+   article a{
+     text-align: center;
+     color: white;
+   }
+   article p{
+    text-align: center;
+   }
+  
+   
+   
+   aside{
+       background-color: #005792;
+     float: left;
+     width: 30%;
+       padding: 0px;
+     text-align: center;
+       color: white;
+    height: 1200px;
+    margin-top: 250px;
+    font-size: 1.3em;
+   }
+   
+   section::after{
+        content: "";
+        display: table;
+        clear: both;
+   }
+   
+   footer{
+     background-color: #005792;
+     text-align: center;
+     padding: 10px;
+     margin-top: 7px;
+   }
+   footer p{
+    color: white;
+   }
+   @media only screen and (max-width:900px){
+   
+   nav, article, aside {
+   
+     width: 100%;
+   }
+   
+   }
+   
+   
