@@ -9,7 +9,7 @@
    /*da mettere sempre per i siti responsive*/
    }
    
-   
+
    header{
    
       font-size: 0.9em;
@@ -20,6 +20,8 @@
        padding:40px;
        flex-wrap: wrap;
        text-align: center;
+         border-radius: 30px;
+
        
    }
    header h1{
@@ -38,6 +40,15 @@
     }
    .logo2{
       height: 150px;
+    }
+   .logo3{
+     background-color: white;
+    }
+    .logo4{
+      width: 70%;
+      height: auto;
+      margin-left: 250px;
+     
     }
    .info {
    
@@ -62,32 +73,37 @@
    
    nav a{
      overflow: auto;
-     background-color: #005792;
-    font-family: sans-serif;
-     margin-top: 10px;
+     background-color: #0056b3;
+    font-family: verdana;
+     margin-top: 25px;
      display: block;
      width: 100%;
      color: white;
      height: 70px;
      text-decoration: none;
+   
+     border-radius: 30px;
+overflow: hidden
+     
+
 
    }
 
-} 
-    .nav-img{
-   background-color: white;
-  width: 60%;
-         height: 70px;
+
+  .nav-img{
+   background-color: blue;
+  width: 50%;
+         height: 40px;
          align-items: right;
           overflow-y: hidden;
           margin-left: 90px;
-
+       
 
    }
    
    
 
-	
+  
    
    article{
    
@@ -111,6 +127,9 @@
      font-size: 1.8em;
    
    }
+   .supercalcolo-article{
+    text-align: center;
+  }
    article a{
      text-align: center;
      color: white;
@@ -119,7 +138,16 @@
     text-align: center;
    }
   
-   
+   p{
+    text-align: center;
+    font-size: 1.2em;
+    font-family: verdana;
+   }
+   ul{
+    text-align: left;
+    font-size: 1.1em;
+    font-family: verdana;
+   }
    
    aside{
        background-color: #005792;
@@ -128,7 +156,7 @@
        padding: 0px;
      text-align: center;
        color: white;
-    height: 1200px;
+    height: 1300px;
     margin-top: 250px;
     font-size: 1.3em;
    }
@@ -138,12 +166,52 @@
         display: table;
         clear: both;
    }
-   
+   h3{
+    text-align: center;
+    font-family: verdana;
+    font-size: 1.7em;
+    color: #005792;
+   }
+   .img{
+    width: 100%;
+    height: auto;
+
+   }
+   h4{
+    text-align: center;
+    font-family: verdana;
+    font-size: 1.2em;
+   }
+   .riquadro{
+  background-color: #005792; 
+  color: white;               
+  display: flex; 
+  align-items: flex-start;
+  vertical-align: 90px;
+  gap: 40px;
+  
+  width: 100%;              
+  padding: 60px;     
+       
+  align-items: center;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2); /*ombra*/
+  font-family: verdana;
+ }
+ .testo{
+  
+  font-size: 1.9em;
+  
+
+ }
+ .riquadro li{
+  font-size: 20px;
+ }
    footer{
      background-color: #005792;
      text-align: center;
      padding: 10px;
      margin-top: 7px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.2)
    }
    footer p{
     color: white;
@@ -156,5 +224,3 @@
    }
    
    }
-   
-   
